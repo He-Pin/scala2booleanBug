@@ -1,0 +1,15 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\hepin\IdeaProjects\BooleanBug\target\scala-2.13\classes ...
+[error] C:\Users\hepin\IdeaProjects\BooleanBug\src\main\scala\Main.scala:5:34: type mismatch;
+[error]  found   : ServerBootstrap.ChannelOption[Boolean]
+[error]  required: ServerBootstrap.ChannelOption[Any]
+[error] Note: Boolean <: Any, but Java-defined class ChannelOption is invariant in type T.
+[error] You may wish to investigate a wildcard type such as `_ <: Any`. (SLS 3.2.10)
+[error]   bootstrap.option(ChannelOption.TCP_NODELAY, true)
+[error]                                  ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 0 s, completed 2023-7-6 14:11:20
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,10 @@
+[debug] Acquiring lock on file C:\Users\hepin\IdeaProjects\BooleanBug\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock ...
+[error] C:\Users\hepin\IdeaProjects\BooleanBug\src\main\scala\Main.scala:5:34: type mismatch;
+[error]  found   : ServerBootstrap.ChannelOption[Boolean]
+[error]  required: ServerBootstrap.ChannelOption[Any]
+[error] Note: Boolean <: Any, but Java-defined class ChannelOption is invariant in type T.
+[error] You may wish to investigate a wildcard type such as `_ <: Any`. (SLS 3.2.10)
+[error]   bootstrap.option(ChannelOption.TCP_NODELAY, true)
+[error]                                  ^
+[error] one error found
+[debug] Releasing lock on file C:\Users\hepin\IdeaProjects\BooleanBug\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock.
